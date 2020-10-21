@@ -7,9 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>WELCOME TO REACT APP</h1>
+        <h3>Your personal advisor to keep you motivated and calm amidst chaos</h3>
+        <div className="card">
+          <h2>Now is the time</h2>
+          <button className="buton" >
+            <span><h4>Unlock today's</h4></span>
+          </button>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
